@@ -2085,6 +2085,7 @@ for (var i in items) {
 	if (splitItems.length == 100) {
 		var row = createRowCopy(getOutputRowMeta().size());
 		row[0] = JSON.stringify(splitItems);
+		row[2] = splitItems.length;
 		putRow(row);
 		splitItems = [];
 	}
@@ -2093,6 +2094,7 @@ for (var i in items) {
 if (splitItems.length != 0) {
 	var row = createRowCopy(getOutputRowMeta().size());
 	row[0] = JSON.stringify(splitItems);
+	row[2] = splitItems.length;
 	putRow(row);
 	splitItems = [];
 }
@@ -2100,7 +2102,16 @@ if (splitItems.length != 0) {
 trans_Status = SKIP_TRANSFORMATION;</jsScript_script>
       </jsScript>
     </jsScripts>
-    <fields>    </fields>
+    <fields>
+      <field>
+        <name>size</name>
+        <rename>size</rename>
+        <type>Number</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
     <cluster_schema />
     <remotesteps>
       <input>

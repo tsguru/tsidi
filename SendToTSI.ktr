@@ -824,17 +824,17 @@
     </hop>
     <hop>
       <from>Check result</from>
-      <to>Delay row</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Check result</from>
       <to>Log Error 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Log Error 3</from>
       <to>Abort 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Check result</from>
+      <to>Delay row</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -982,6 +982,12 @@
 var result = JSON.parse(ti_result);
 
 if (!result.result.success) {
+	writeToLog("b", "Error: TSI send was unsuccessful.");
+	trans_Status = ERROR_TRANSFORMATION;
+}
+
+if (parseInt(result.result.sent) != size) {
+	writeToLog("b", "Error: no of rows sent does not match no of rows received.");
 	trans_Status = ERROR_TRANSFORMATION;
 }</jsScript_script>
       </jsScript>
@@ -1021,7 +1027,7 @@ if (!result.result.success) {
       </output>
     </remotesteps>
     <GUI>
-      <xloc>720</xloc>
+      <xloc>832</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1045,7 +1051,7 @@ if (!result.result.success) {
       </output>
     </remotesteps>
     <GUI>
-      <xloc>944</xloc>
+      <xloc>1056</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1071,6 +1077,12 @@ if (!result.result.success) {
       <field>
         <name>key</name>
         <type>Integer</type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>size</name>
+        <type>Number</type>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1184,6 +1196,12 @@ if (!result.result.success) {
     <fields>
       <field>
         <name>payload</name>
+      </field>
+      <field>
+        <name>key</name>
+      </field>
+      <field>
+        <name>size</name>
       </field>
       <field>
         <name>ti_result</name>
@@ -1360,7 +1378,7 @@ if (!result.result.success) {
       </output>
     </remotesteps>
     <GUI>
-      <xloc>832</xloc>
+      <xloc>944</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
