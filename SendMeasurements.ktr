@@ -2,9 +2,9 @@
 <transformation>
   <info>
     <name>SendMeasurements</name>
-    <description/>
-    <extended_description/>
-    <trans_version/>
+    <description />
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
     <directory>/</directory>
@@ -12,57 +12,57 @@
       <parameter>
         <name>apitoken</name>
         <default_value>6713d31b-7448-4452-b919-3d946f81d819</default_value>
-        <description/>
+        <description />
       </parameter>
       <parameter>
         <name>applications</name>
         <default_value>/Users/martin/Downloads/hebelup/serverAppReal.csv</default_value>
-        <description/>
+        <description />
       </parameter>
       <parameter>
         <name>connectionTimeout</name>
         <default_value>60000</default_value>
-        <description/>
+        <description />
       </parameter>
       <parameter>
         <name>email</name>
         <default_value>dbtest@bmc.com</default_value>
-        <description/>
+        <description />
       </parameter>
       <parameter>
         <name>measures</name>
-        <default_value>/Users/martin/OneDrive - BMC Software, Inc/Deutsche Bank/data/xmt.csv</default_value>
-        <description/>
+        <default_value>/Users/martin/OneDrive - BMC Software, Inc/Deutsche Bank/data/20170806aa_sample.csv</default_value>
+        <description />
       </parameter>
       <parameter>
         <name>proxyhost</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
       <parameter>
         <name>proxyport</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
       <parameter>
         <name>socketTimeout</name>
         <default_value>60000</default_value>
-        <description/>
+        <description />
       </parameter>
       <parameter>
         <name>throttleThread</name>
         <default_value>800</default_value>
-        <description/>
+        <description />
       </parameter>
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -87,37 +87,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -171,11 +171,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -253,10 +253,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -319,10 +319,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -395,10 +395,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -447,9 +447,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -460,7 +460,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -770,7 +770,7 @@
           <id>id100</id>
         </partition>
         <dynamic>N</dynamic>
-        <partitions_per_slave/>
+        <partitions_per_slave />
       </partitionschema>
       <partitionschema>
         <name>20_x</name>
@@ -835,7 +835,7 @@
           <id>id20</id>
         </partition>
         <dynamic>N</dynamic>
-        <partitions_per_slave/>
+        <partitions_per_slave />
       </partitionschema>
       <partitionschema>
         <name>50_x</name>
@@ -990,7 +990,7 @@
           <id>id50</id>
         </partition>
         <dynamic>N</dynamic>
-        <partitions_per_slave/>
+        <partitions_per_slave />
       </partitionschema>
       <partitionschema>
         <name>10_x</name>
@@ -1025,7 +1025,7 @@
           <id>id10</id>
         </partition>
         <dynamic>N</dynamic>
-        <partitions_per_slave/>
+        <partitions_per_slave />
       </partitionschema>
       <partitionschema>
         <name>5_x</name>
@@ -1045,7 +1045,7 @@
           <id>id5</id>
         </partition>
         <dynamic>N</dynamic>
-        <partitions_per_slave/>
+        <partitions_per_slave />
       </partitionschema>
       <partitionschema>
         <name>30_x</name>
@@ -1140,7 +1140,7 @@
           <id>id30</id>
         </partition>
         <dynamic>N</dynamic>
-        <partitions_per_slave/>
+        <partitions_per_slave />
       </partitionschema>
     </partitionschemas>
     <slaveservers>
@@ -1336,25 +1336,25 @@ in "Read Measures"</note>
   <step>
     <name>Add sequence</name>
     <type>Sequence</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <valuename>key2</valuename>
     <use_database>N</use_database>
-    <connection/>
-    <schema/>
+    <connection />
+    <schema />
     <seqname>SEQ_</seqname>
     <use_counter>Y</use_counter>
-    <counter_name/>
+    <counter_name />
     <start_at>1</start_at>
     <increment_by>1</increment_by>
     <max_value>100</max_value>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1370,13 +1370,13 @@ in "Read Measures"</note>
   <step>
     <name>Create Payload</name>
     <type>ScriptValueMod</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <compatible>N</compatible>
     <optimizationLevel>9</optimizationLevel>
@@ -1447,7 +1447,7 @@ var lastSourceMetric = "";
         <replace>N</replace>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1463,13 +1463,13 @@ var lastSourceMetric = "";
   <step>
     <name>Create Source</name>
     <type>ScriptValueMod</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <compatible>N</compatible>
     <optimizationLevel>9</optimizationLevel>
@@ -1508,7 +1508,7 @@ if (instance != "") {
         <replace>N</replace>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1524,15 +1524,15 @@ if (instance != "") {
   <step>
     <name>Done</name>
     <type>Dummy</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1548,13 +1548,13 @@ if (instance != "") {
   <step>
     <name>Log Payload</name>
     <type>WriteToLog</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <loglevel>log_level_debug</loglevel>
     <displayHeader>Y</displayHeader>
@@ -1566,7 +1566,7 @@ if (instance != "") {
         <name>payload</name>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1582,16 +1582,16 @@ if (instance != "") {
   <step>
     <name>Mark Last</name>
     <type>DetectLastRow</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <resultfieldname>last</resultfieldname>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1607,13 +1607,13 @@ if (instance != "") {
   <step>
     <name>Merge Servers</name>
     <type>MergeJoin</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <join_type>INNER</join_type>
     <step1>Sort Apps</step1>
@@ -1624,7 +1624,7 @@ if (instance != "") {
     <keys_2>
       <key>server</key>
     </keys_2>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1640,17 +1640,17 @@ if (instance != "") {
   <step>
     <name>Read Apps</name>
     <type>CsvInput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <filename>%%applications%%</filename>
-    <filename_field/>
-    <rownum_field/>
+    <filename_field />
+    <rownum_field />
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -1660,15 +1660,15 @@ if (instance != "") {
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding/>
+    <encoding />
     <fields>
       <field>
         <name>server</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -1676,16 +1676,16 @@ if (instance != "") {
       <field>
         <name>apps</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
+        <format />
+        <currency />
+        <decimal />
         <group>.</group>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1701,17 +1701,17 @@ if (instance != "") {
   <step>
     <name>Read Measures</name>
     <type>CsvInput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <filename>%%measures%%</filename>
-    <filename_field/>
-    <rownum_field/>
+    <filename_field />
+    <rownum_field />
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -1721,15 +1721,15 @@ if (instance != "") {
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding/>
+    <encoding />
     <fields>
       <field>
         <name>server</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -1737,10 +1737,10 @@ if (instance != "") {
       <field>
         <name>metric</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -1748,10 +1748,10 @@ if (instance != "") {
       <field>
         <name>measure</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -1759,16 +1759,16 @@ if (instance != "") {
       <field>
         <name>timestamp</name>
         <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1784,13 +1784,13 @@ if (instance != "") {
   <step>
     <name>Remove Fields</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <select_unspecified>N</select_unspecified>
@@ -1825,7 +1825,7 @@ if (instance != "") {
         <name>timestamp</name>
       </remove>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1841,28 +1841,28 @@ if (instance != "") {
   <step>
     <name>Single Threader</name>
     <type>SingleThreader</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>ModPartitioner</method>
-      <schema_name>5_x</schema_name>
+      <schema_name>source</schema_name>
       <field_name>key2</field_name>
     </partitioning>
     <specification_method>filename</specification_method>
-    <trans_object_id/>
-    <trans_name/>
+    <trans_object_id />
+    <trans_name />
     <filename>${Internal.Entry.Current.Directory}/SendToTSI.ktr</filename>
-    <directory_path/>
+    <directory_path />
     <batch_size>1</batch_size>
-    <batch_time/>
+    <batch_time />
     <inject_step>Injector</inject_step>
     <retrieve_step>Done</retrieve_step>
     <parameters>
       <pass_all_parameters>Y</pass_all_parameters>
     </parameters>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1880,18 +1880,18 @@ if (instance != "") {
     <type>SortRows</type>
     <description>Sort</description>
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -1919,7 +1919,7 @@ if (instance != "") {
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1935,20 +1935,20 @@ if (instance != "") {
   <step>
     <name>Sort Apps</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -1968,7 +1968,7 @@ if (instance != "") {
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1984,20 +1984,20 @@ if (instance != "") {
   <step>
     <name>Sort Rows</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -2025,7 +2025,7 @@ if (instance != "") {
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -2041,22 +2041,22 @@ if (instance != "") {
   <step>
     <name>Split Apps</name>
     <type>SplitFieldToRows3</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <splitfield>apps</splitfield>
     <delimiter>,</delimiter>
     <newfield>app</newfield>
     <rownum>N</rownum>
-    <rownum_field/>
+    <rownum_field />
     <resetrownumber>Y</resetrownumber>
     <delimiter_is_regex>N</delimiter_is_regex>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -2072,13 +2072,13 @@ if (instance != "") {
   <step>
     <name>Split Payload</name>
     <type>ScriptValueMod</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <compatible>N</compatible>
     <optimizationLevel>9</optimizationLevel>
@@ -2125,7 +2125,7 @@ trans_Status = SKIP_TRANSFORMATION;</jsScript_script>
         <replace>N</replace>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -2141,50 +2141,50 @@ trans_Status = SKIP_TRANSFORMATION;</jsScript_script>
   <step>
     <name>Split Server Field</name>
     <type>FieldSplitter</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <splitfield>server</splitfield>
     <delimiter>;</delimiter>
-    <enclosure/>
+    <enclosure />
     <fields>
       <field>
         <name>server</name>
-        <id/>
+        <id />
         <idrem>N</idrem>
         <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
+        <format />
+        <group />
+        <decimal />
+        <currency />
         <length>-1</length>
         <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
+        <nullif />
+        <ifnull />
         <trimtype>none</trimtype>
       </field>
       <field>
         <name>instance</name>
-        <id/>
+        <id />
         <idrem>N</idrem>
         <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
+        <format />
+        <group />
+        <decimal />
+        <currency />
         <length>-1</length>
         <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
+        <nullif />
+        <ifnull />
         <trimtype>none</trimtype>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
